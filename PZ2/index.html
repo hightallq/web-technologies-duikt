@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="main">
+      <div class="form-container">
+        <h1 style="text-align: center">Форма реєстрації</h1>
+        <form
+          action="https://webhook.site/eddf792c-a6bc-497f-a2ba-f1047075e51a"
+          method="POST"
+          class="form"
+        >
+          <label for="name">Ім'я:</label>
+          <input
+            class="form-input"
+            type="text"
+            id="name"
+            name="name"
+            required
+          />
+          <label for="surname">Прізвище:</label>
+          <input
+            class="form-input"
+            type="text"
+            id="surname"
+            name="surname"
+            required
+          />
+          <label for="date">Вік:</label>
+          <input
+            class="form-input"
+            type="date"
+            id="date"
+            name="date"
+            required
+          />
+          <label for="email">Email:</label>
+          <input
+            class="form-input"
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+          <label for="password">Пароль:</label>
+          <input
+            class="form-input"
+            type="password"
+            id="password"
+            name="password"
+            required
+          />
+          <label for="confirm_password">Підтвердження пароля:</label>
+          <input
+            class="form-input"
+            type="password"
+            id="confirm_password"
+            name="confirm_password"
+            required
+          />
+          <input class="submit-btn" type="submit" value="Submit" />
+        </form>
+      </div>
+      <img src="/PZ2/emoji.png" alt="Emoji" class="emoji-img" />
+    </section>
+  </body>
+</html>
