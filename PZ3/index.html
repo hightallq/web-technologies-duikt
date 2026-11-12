@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ТиTube</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="navbar-logo">
+        <div class="burger" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <img src="./img/youtube-logo.png" alt="YouTube" />
+      </div>
+
+      <div class="navbar-search">
+        <div class="search-main">
+          <div class="search-bar">
+            <input
+              type="text"
+              name="search"
+              placeholder="Пошук"
+              aria-label="Пошук"
+            />
+            <div class="search-button">
+              <img src="./img/search.png" alt="Пошук" />
+            </div>
+          </div>
+          <div class="icon-circle voice-icon">
+            <img src="./img/mic.png" alt="Голосовий пошук" />
+          </div>
+        </div>
+
+        <div class="search-actions">
+          <div class="icon-circle">
+            <img src="./img/video.png" alt="Створити" />
+          </div>
+          <div class="icon-circle">
+            <img src="./img/bell.png" alt="Сповіщення" />
+          </div>
+          <div class="icon-circle account-icon"><p>N</p></div>
+        </div>
+      </div>
+    </header>
+
+    <main class="page">
+      <aside class="sidebar">
+        <nav class="sidebar-section sidebar-tabs">
+          <div class="sidebar-item active">
+            <img src="./img/home.png" alt="Головна" />
+            <p>Головна</p>
+          </div>
+          <div class="sidebar-item">
+            <img src="./img/youtube-shorts.webp" alt="Youtube Shorts" />
+            <p>Youtube Shorts</p>
+          </div>
+          <div class="sidebar-item">
+            <img src="./img/subscribe.png" alt="Підписки" />
+            <p>Підписки</p>
+          </div>
+          <div class="sidebar-item">
+            <img src="./img/youtube-music.webp" alt="Youtube Music" />
+            <p>Youtube Music</p>
+          </div>
+        </nav>
+
+        <section class="sidebar-section sidebar-feed">
+          <div class="section-heading">
+            <p>Ви</p>
+            <p>></p>
+          </div>
+          <div class="feed-links">
+            <div class="sidebar-item">
+              <img src="./img/user-square.png" alt="Ваш канал" />
+              <p>Ваш канал</p>
+            </div>
+            <div class="sidebar-item">
+              <img src="./img/history.png" alt="Історія" />
+              <p>Історія</p>
+            </div>
+            <div class="sidebar-item">
+              <img src="./img/video-icon.png" alt="Ваші відео" />
+              <p>Ваші відео</p>
+            </div>
+            <div class="sidebar-item">
+              <img src="./img/clock.png" alt="Переглянути пізні..." />
+              <p>Переглянути пізні...</p>
+            </div>
+            <div class="sidebar-item">
+              <img src="./img/download.png" alt="Завантаження" />
+              <p>Завантаження</p>
+            </div>
+            <div class="sidebar-item">
+              <img src="./img/down-arrow.png" alt="Показати більше" />
+              <p>Показати більше</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="sidebar-section subscriptions">
+          <div class="section-heading"><p>Підписки</p></div>
+          <div class="subscription-item">
+            <img
+              src="./img/sub-pic-channel1.jpg"
+              alt="Аватар каналу"
+              class="channel-avatar"
+            />
+            <p>Mr. Beast</p>
+            <span class="notification-dot"></span>
+          </div>
+          <div class="subscription-item">
+            <img
+              src="./img/sub-pic-channel2.jpg"
+              alt="Аватар каналу"
+              class="channel-avatar"
+            />
+            <p>PewDiePie</p>
+            <span class="notification-dot"></span>
+          </div>
+          <div class="subscription-item">
+            <img
+              src="./img/sub-pic-channel3.jpg"
+              alt="Аватар каналу"
+              class="channel-avatar"
+            />
+            <p>Dude Perfect</p>
+            <span class="notification-dot"></span>
+          </div>
+          <div class="subscription-item">
+            <img
+              src="./img/sub-pic-channel4.jpg"
+              alt="Аватар каналу"
+              class="channel-avatar"
+            />
+            <p>Mark Rober</p>
+            <span class="notification-dot"></span>
+          </div>
+          <div class="subscription-item">
+            <img
+              src="./img/sub-pic-channel5.jpg"
+              alt="Аватар каналу"
+              class="channel-avatar"
+            />
+            <p>Jake Paul</p>
+            <span class="notification-dot"></span>
+          </div>
+          <div class="subscription-item">
+            <img
+              src="./img/sub-pic-channel6.jpg"
+              alt="Аватар каналу"
+              class="channel-avatar"
+            />
+            <p>Logan Paul</p>
+            <span class="notification-dot"></span>
+          </div>
+          <div class="subscription-item">
+            <img
+              src="./img/sub-pic-channel7.jpg"
+              alt="Аватар каналу"
+              class="channel-avatar"
+            />
+            <p>MC Lukey</p>
+            <span class="notification-dot"></span>
+          </div>
+          <div class="show-more">
+            <img src="./img/down-arrow.png" alt="Показати ще" />
+            <p>Показати ще 24</p>
+          </div>
+        </section>
+      </aside>
+
+      <section class="main-content">
+        <nav class="categories">
+          <div class="categories-list">
+            <div class="category-button selected"><p>Усі</p></div>
+            <div class="category-button"><p>Ігри</p></div>
+            <div class="category-button"><p>Музика</p></div>
+            <div class="category-button"><p>Пряма трансляція</p></div>
+            <div class="category-button"><p>Новини</p></div>
+            <div class="category-button"><p>Пригодницький бойовик</p></div>
+            <div class="category-button"><p>Образотворчі мистецтва</p></div>
+            <div class="category-button"><p>Мультфільми</p></div>
+            <div class="category-button"><p>Нещодавні завантаження</p></div>
+            <div class="category-button"><p>Ви дивилися</p></div>
+          </div>
+          <div class="category-next"><p>></p></div>
+        </nav>
+
+        <section class="video-grid">
+          <article class="video-card">
+            <div class="video-thumb">
+              <img src="./img/thumbnail1.avif" alt="Мініатюра відео" />
+              <div class="video-duration">12:45</div>
+            </div>
+            <div class="video-info">
+              <div class="channel-picture">
+                <img src="./img/channel-pic-video1.webp" alt="Аватар каналу" />
+              </div>
+              <div class="video-description">
+                <p class="video-title">
+                  Obsession: But the Girl Makes the Wish
+                </p>
+                <div class="video-meta">
+                  <p>Danny Dunn</p>
+                  <div class="statistics">
+                    <p>1,3 млн переглядів</p>
+                    <span class="dot"></span>
+                    <p>12 дн. тому</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="video-card">
+            <div class="video-thumb">
+              <img src="./img/thumbnail2.avif" alt="Мініатюра відео" />
+              <div class="video-duration">12:45</div>
+            </div>
+            <div class="video-info">
+              <div class="channel-picture">
+                <img src="./img/channel-pic-video2.jpg" alt="Аватар каналу" />
+              </div>
+              <div class="video-description">
+                <p class="video-title">
+                  How Much Money Does Dexter Morgan Actually Make?
+                </p>
+                <div class="video-meta">
+                  <p>Beyond Dexter</p>
+                  <div class="statistics">
+                    <p>153 тис. переглядів</p>
+                    <span class="dot"></span>
+                    <p>7 дн. тому</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="video-card">
+            <div class="video-thumb">
+              <img src="./img/thumbnail3.avif" alt="Мініатюра відео" />
+              <div class="video-duration">12:45</div>
+            </div>
+            <div class="video-info">
+              <div class="channel-picture">
+                <img src="./img/channel-pic-video3.jpg" alt="Аватар каналу" />
+              </div>
+              <div class="video-description">
+                <p class="video-title">Hirohiko Araki's Writing Regrets</p>
+                <div class="video-meta">
+                  <p>xForts</p>
+                  <div class="statistics">
+                    <p>528 тис. переглядів</p>
+                    <span class="dot"></span>
+                    <p>2 р. тому</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="video-card">
+            <div class="video-thumb">
+              <img src="./img/thumbnail4.avif" alt="Мініатюра відео" />
+              <div class="video-duration">12:45</div>
+            </div>
+            <div class="video-info">
+              <div class="channel-picture">
+                <img src="./img/channel-pic-video5.jpg" alt="Аватар каналу" />
+              </div>
+              <div class="video-description">
+                <p class="video-title">The easy way to learn nothing</p>
+                <div class="video-meta">
+                  <p>General Musings with Kevin Powell</p>
+                  <div class="statistics">
+                    <p>1 млн переглядів</p>
+                    <span class="dot"></span>
+                    <p>13 дн тому</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="video-card">
+            <div class="video-thumb">
+              <img src="./img/thumbnail5.avif" alt="Мініатюра відео" />
+              <div class="video-duration">12:45</div>
+            </div>
+            <div class="video-info">
+              <div class="channel-picture">
+                <img src="./img/channel-pic-video4.jpg" alt="Аватар каналу" />
+              </div>
+              <div class="video-description">
+                <p class="video-title">
+                  Patric Jane vs Red John Analysed As Chess | The Mentalist
+                </p>
+                <div class="video-meta">
+                  <p>Checkmate Cinema</p>
+                  <div class="statistics">
+                    <p>117 тис. переглядів</p>
+                    <span class="dot"></span>
+                    <p>4 тиж. тому</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="video-card">
+            <div class="video-thumb">
+              <img src="./img/thumbnail6.avif" alt="Мініатюра відео" />
+              <div class="video-duration">12:45</div>
+            </div>
+            <div class="video-info">
+              <div class="channel-picture">
+                <img src="./img/channel-pic-video6.jpg" alt="Аватар каналу" />
+              </div>
+              <div class="video-description">
+                <p class="video-title">The Cheater - Key & Peele</p>
+                <div class="video-meta">
+                  <p>Key & Peele</p>
+                  <div class="statistics">
+                    <p>3,1 млн переглядів</p>
+                    <span class="dot"></span>
+                    <p>5 р. тому</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="video-card">
+            <div class="video-thumb">
+              <img src="./img/thumbnail7.jpg" alt="Мініатюра відео" />
+              <div class="video-duration">12:45</div>
+            </div>
+            <div class="video-info">
+              <div class="channel-picture">
+                <img src="./img/channel-pic-video7.jpg" alt="Аватар каналу" />
+              </div>
+              <div class="video-description">
+                <p class="video-title">The easy way to learn nothing</p>
+                <div class="video-meta">
+                  <p>General Musings with Kevin Powell</p>
+                  <div class="statistics">
+                    <p>1 млн переглядів</p>
+                    <span class="dot"></span>
+                    <p>13 дн тому</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="video-card">
+            <div class="video-thumb">
+              <img src="./img/thumbnail8.jpg" alt="Мініатюра відео" />
+              <div class="video-duration">12:45</div>
+            </div>
+            <div class="video-info">
+              <div class="channel-picture">
+                <img src="./img/channel-pic-video1.webp" alt="Аватар каналу" />
+              </div>
+              <div class="video-description">
+                <p class="video-title">
+                  Patric Jane vs Red John Analysed As Chess | The Mentalist
+                </p>
+                <div class="video-meta">
+                  <p>Checkmate Cinema</p>
+                  <div class="statistics">
+                    <p>117 тис. переглядів</p>
+                    <span class="dot"></span>
+                    <p>4 тиж. тому</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="video-card">
+            <div class="video-thumb">
+              <img src="./img/thumbnail9.jpg" alt="Мініатюра відео" />
+              <div class="video-duration">12:45</div>
+            </div>
+            <div class="video-info">
+              <div class="channel-picture">
+                <img src="./img/channel-pic-video9.jpg" alt="Аватар каналу" />
+              </div>
+              <div class="video-description">
+                <p class="video-title">The Cheater - Key & Peele</p>
+                <div class="video-meta">
+                  <p>Key & Peele</p>
+                  <div class="statistics">
+                    <p>3,1 млн переглядів</p>
+                    <span class="dot"></span>
+                    <p>5 р. тому</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
